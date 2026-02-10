@@ -1,0 +1,195 @@
+/* Google Fonts import a preview-hoz */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Alap stílusok a document preview-hoz (fekete-fehér PDF-szerű) */
+.document-page {
+  background-color: white;
+  color: black;
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+  line-height: 1.2;
+}
+
+/* Szaggatott elválasztók */
+.dashed-separator {
+  border-top: 1px dashed #000000;
+  margin: 8px 0;
+}
+
+/* Címke szekció (felső) */
+.section-label {
+  padding-bottom: 8px;
+}
+
+/* Fő szekció (középső) */
+.section-main {
+  position: relative;
+}
+
+/* Sidebar fekete sáv */
+.sidebar-black {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 10mm;
+  background-color: black;
+  color: white;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9pt;
+  font-weight: bold;
+}
+
+.sidebar-text {
+  transform: rotate(180deg);
+}
+
+/* Másodlat doboz */
+.masodlat-box {
+  background-color: black;
+  color: white;
+  padding: 2px 4px;
+  font-weight: bold;
+  font-size: 10pt;
+  display: inline-block;
+}
+
+/* Űrlapmezők */
+.form-fields {
+  margin-bottom: 16px;
+}
+
+.form-row {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+.form-label {
+  font-size: 10pt;
+  white-space: nowrap;
+  margin-right: 8px;
+}
+
+.form-underline {
+  border-bottom: 1px solid black;
+  flex: 1;
+  height: 16px;
+}
+
+.form-underline-full {
+  border-bottom: 1px solid black;
+  margin: 8px 0;
+}
+
+/* Aláírás sorok */
+.signature-row-three {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.signature-block {
+  flex: 1;
+  text-align: center;
+}
+
+.signature-line {
+  border-bottom: 1px solid black;
+  margin-bottom: 4px;
+}
+
+.signature-label {
+  font-size: 9pt;
+  color: #666666;
+}
+
+.signature-name {
+  font-size: 9pt;
+}
+
+/* Elismervény szekció (alsó) */
+.section-receipt {
+  padding-top: 8px;
+}
+
+/* Egyéb stílusok */
+.section-title {
+  font-size: 18pt;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.text-body {
+  font-size: 10pt;
+}
+
+.text-small {
+  font-size: 9pt;
+}
+
+.text-muted-foreground {
+  color: #666666;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.mt-2 {
+  margin-top: 8px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-2 {
+  margin-bottom: 8px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.gap-6 {
+  gap: 24px;
+}
