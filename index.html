@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talált Tárgy Nyilvántartó Lap</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div style="padding: 16px; max-width: 800px; margin: 0 auto;">
+    <!-- Dokumentum preview konténer -->
+    <div id="document-preview" class="document-page">
+      <!-- Ide kerül a dinamikus tartalom JS-sel -->
+    </div>
+    
+    <!-- PDF letöltés gomb -->
+    <button id="download-btn" style="margin-top: 16px; background-color: #3b82f6; color: white; padding: 8px 16px; border-radius: 4px; display: flex; align-items: center; border: none; cursor: pointer;">
+      <span style="margin-right: 8px;">📥</span> PDF letöltése
+    </button>
+  </div>
+
+  <!-- jsPDF CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <!-- qrcode CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
